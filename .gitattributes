@@ -1,0 +1,27 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files you want to always be normalized
+*.py text
+*.ipynb text
+*.md text
+*.txt text
+*.sql text
+*.csv text
+*.html text
+*.json text
+
+# Denote all files that are truly binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.xlsx binary
+*.twb binary
+*.twbx binary
+
+# Notebooks - don't diff outputs
+*.ipynb -diff

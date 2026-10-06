@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+data/raw_data/
+data/cleaned_data/
+data/*.zip
+*.pdf
+
+# Tableau large files
+*.twbx
+*.twbr
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
